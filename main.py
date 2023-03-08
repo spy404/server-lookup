@@ -6,6 +6,7 @@ from colorama import init, Fore
 from pystyle import Center
 
 # ------ setup ------ #
+init()
 os.system("title Server look-up | spy404#1388")
 os.system("cls" if os.name == "nt" else "clear")
 print(Fore.GREEN + Center.XCenter("""
